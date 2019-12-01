@@ -1,0 +1,21 @@
+
+body {background-color:#ffe6e6;}
+a {color:grey;text-decoration:none;}
+li {color:grey;}
+h1{text-align:center;border-bottom:3px #808080 solid; padding:50px; margin:0px; display:block;font-style: oblique;
+font-size:70px;}
+.biggrid{display:grid; grid-template-columns:150px 1fr;
+}
+.list{border-right:1px solid #808080; }
+.article{padding-left: 30px;}
+h2 {text-align:center; }
+p {text-align:center;}
+
+
+
+@media (max-width:700px)
+{
+.biggrid{display:block;}
+.list{border:none;}
+h1{border-bottom:none;}
+}
