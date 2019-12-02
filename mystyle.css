@@ -1,17 +1,25 @@
 
 body {background-color:#ffe6e6;}
-a {color:grey;text-decoration:none;}
-li {color:grey;}
-h1{text-align:center;border-bottom:3px #808080 solid; padding:50px; margin:0px; display:block;font-style: oblique;
-font-size:70px;}
-.biggrid{display:grid; grid-template-columns:150px 1fr;
+a {color:grey;text-decoration:none;font-family: Arial, Helvetica, sans-serif;}
+li {color:grey;font-family: Arial, Helvetica, sans-serif;}
+h1{text-align:center;border-bottom:3px #808080 solid; padding:30px; margin:0px; display:block;
+font-size:60px;  font-family: Arial, Helvetica, sans-serif;font-style: oblique;}
+.biggrid{display:grid; grid-template-columns:200px 1fr;
 }
-.list{border-right:1px solid #808080; }
+.list{border-right:1px solid #808080;line-height: 160%; font-style: oblique;}
 .article{padding-left: 30px;}
-h2 {text-align:center; }
-p {text-align:center;}
+h2 {text-align:center;font-family: Arial, Helvetica, sans-serif;font-style: oblique;}
+p {text-align:center;font-family: Arial, Helvetica, sans-serif;}
+.smallgrid{display:grid; grid-template-columns: 600px 1fr;padding-top: 20px;}
+.littlebiggrid{display:grid; grid-template-columns:550px 1fr;}
+.nuri{padding-right: 20px;}
+.tmi{padding-left:20px;}
 
 
+  table { border-collapse: collapse;}
+  table,tr,td,th{ border: 1px solid black; text-align: center; padding: 10px;font-family: Arial, Helvetica, sans-serif;}
+
+  #netflix{text-decoration: underline; color:blue; }
 
 @media (max-width:700px)
 {
